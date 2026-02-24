@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 31
+names: ['100', '110', '120', '130', '20', '30', '40', '50', '60', '70', '80', '90', 'Green', 'Red', 'Yellow', 'green', 'red', 'speed limit 10', 'speed limit 100', 'speed limit 110', 'speed limit 120', 'speed limit 130', 'speed limit 20', 'speed limit 30', 'speed limit 40', 'speed limit 50', 'speed limit 60', 'speed limit 70', 'speed limit 80', 'speed limit 90', 'yellow']
+
+roboflow:
+  workspace: ishika-kapoor-hl0go
+  project: tlsdm-project-rlsir
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ishika-kapoor-hl0go/tlsdm-project-rlsir/dataset/2
